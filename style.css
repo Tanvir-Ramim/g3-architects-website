@@ -6,9 +6,16 @@
 }
 
 /* common style section */
-.btn-primary{
-    
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
 }
+
 /* header style  nav*/
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -56,6 +63,31 @@ nav li a {
     font-size: 4rem;
     font-weight: 700;
 }
-.banner-para{
-    color:  #727272;
+
+.banner-para {
+    color: #727272;
+}
+.banner-main img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* responsive media  */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet or medium */
+@media screen and (min-width:576px) and (max-width:992px) {
+     header{
+        padding: 50px;
+     }
+    nav{
+        flex-direction: column;
+      }
 }
