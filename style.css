@@ -1,0 +1,12 @@
+/* font work sans from google */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+ 
+  *{
+    font-family: 'Work Sans', sans-serif;
+  }
+  /* header style  nav*/
+  header{
+    width: 1920px;
+height: 1322px;
+flex-shrink: 0;
+  }
