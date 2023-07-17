@@ -219,6 +219,11 @@ footer {
     height: 90px;
     width: 1400px;
     margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* responsive media  */
@@ -227,7 +232,10 @@ footer {
     header {
         padding: 20px;
     }
-
+    footer{
+        width: auto;
+        padding: 5px;
+    }
     nav,
     .facts-card-container,
     .sponsors-img-container,
@@ -271,12 +279,13 @@ footer {
     header {
         padding: 50px;
     }
-
+     footer{
+        width: auto;
+     }
     nav,
     .team-main,
     .sponsors-img-container,
     .feature-main {
         flex-direction: column;
     }
-
 }
